@@ -1,20 +1,20 @@
-CREATE DATABASE IF NOT EXISTS Hospital;
-USE Hospital;
+CREATE DATABASE Hospital;
 
-CREATE TABLE IF NOT EXISTS patients (
+
+CREATE TABLE patients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(45) NOT NULL,
     age INT,
     gender VARCHAR(10) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS doctors (
+CREATE TABLE doctors (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(45) NOT NULL,
     specialization VARCHAR(45) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS appointments (
+CREATE TABLE appointments (
     id INT AUTO_INCREMENT PRIMARY KEY,
     patient_id INT NOT NULL,
     doctor_id INT NOT NULL,
