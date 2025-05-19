@@ -1,6 +1,6 @@
 # 💊 Hospital Management Lite — Java & MySQL 🏥
 
-A lightweight, terminal-based Hospital Management System built in **Java** with **MySQL** backend using **JDBC**.  
+A terminal-based Hospital Management System built in **Java** with **MySQL** backend using **JDBC**.  
 This project is perfect for learners exploring Java OOPs, database integration, and real-world CRUD operations.
 
 ---
